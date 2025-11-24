@@ -1,0 +1,74 @@
+# Instagram Login – Test Summary Report
+
+## 1. Introduction
+This Test Summary Report provides an overview of the testing performed on the Instagram Login feature.  
+The purpose of this test cycle was to validate login functionality using different types of user input, including valid and invalid credentials.
+
+---
+
+## 2. Test Objectives
+- Verify that users can log in successfully with valid credentials.  
+- Check that invalid login attempts show correct error messages.  
+- Confirm that the login button and input fields behave correctly.  
+- Identify and report any defects found during testing.  
+
+---
+
+## 3. Test Scope
+Testing included:
+- Valid username + password  
+- Valid email + password  
+- Valid phone number + password  
+- Invalid username/password combinations  
+- Empty field validation  
+- Basic UI and error message behavior  
+
+Out of scope:
+- Signup  
+- Forgot password  
+- 2FA  
+- Performance testing  
+
+---
+
+## 4. Test Environment
+- Device: iPhone 12  
+- OS: iOS 18.6.2  
+- Network: Wi-Fi 100 Mbps / Vodacom 4G  
+- Instagram App: Latest version (Nov 2025)  
+
+---
+
+## 5. Test Execution Summary
+
+| Status | Count |
+|--------|--------|
+| **Total Test Cases** | 9 |
+| **Passed** | 8 |
+| **Failed** | 1 (TC_009) |
+
+---
+
+## 6. Defects Found
+### ✔ **TC_009 – Incorrect error message for empty fields**
+- When both username and password fields are empty, the login screen does not display the correct error message.
+- Logged in Jira with full details.
+- Severity: Medium  
+- Priority: Medium  
+- Screenshot uploaded in: `/Bug-Reports/Screenshots/`
+
+---
+
+## 7. Overall Result
+The Instagram Login feature is **mostly working as expected**.  
+Only one issue was found, related to incorrect error handling when both fields are empty (TC_009).  
+This defect was documented and reported in Jira.
+
+All other test cases passed successfully.
+
+---
+
+## 8. Conclusion
+The login functionality is stable for normal use with valid and invalid credentials.  
+Only one moderate defect was found and reported.  
+Testing for this cycle is considered **complete**, and the feature is ready for further testing or retesting once the bug is fixed.

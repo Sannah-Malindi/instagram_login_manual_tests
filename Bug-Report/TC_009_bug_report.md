@@ -41,12 +41,11 @@ Medium
 
 ## 9. Priority
 Medium  
-(Should be corrected for a better user experience, but not urgent.)
+(Should be corrected for better user experience) 
 
 ## 10. Attachments
 - Screenshot of the error message  
-- Screenshot of Jira bug entry  
-(Upload your screenshots into: `/Bug-Reports/Screenshots/`)
+- Screenshot of Jira bug entry 
 
 ## 11. Linked Test Case
 **TC_009 – Empty username field and empty password field**
